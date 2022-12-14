@@ -122,7 +122,20 @@ namespace CircularQueues_CSharp
             Queues q = new Queues();
             char ch;
             while (true)
-            { }
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Implement insert operation");
+                    Console.WriteLine("2. Implement delet operation");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("M\nEnter your choice (1-4): ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch (ch)
+                }
+            }
         }
     }
 }
